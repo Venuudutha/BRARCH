@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+        width:100%;
+        height:100vh;
+        
+        position:relative;
+        
+    }
+    .child1{
+        width:100px;
+        height:10vh;
+    }
+    .child2{
+        width:80%;
+        height:20vh;
+        background-color: aliceblue;
+        position:relative;
+    }
+    .child2 img{
+        width:125%;
+        height:80vh;
+    }
+    .c2a{
+        text-align:center;
+        position:absolute;
+        top:100px;
+        right:200px;
+
+    }
+    .child3{
+        position: relative;
+        height:80vh;
+        width:100%;
+    }
+    #heading{
+        position:absolute;
+        bottom:40px;
+    }
+    .child1 a{
+        text-decoration: none;
+        color:black;
+    }
+    .a0{
+        position:absolute;
+        top:-15px;
+        left:20px;
+    }
+    .a1{
+        position:absolute;
+        top:5px;
+        right:140px;
+    }
+    .a2{
+        position:absolute;
+        top:5px;
+        right:90px;
+    }
+    .a3{
+        position:absolute;
+        top:5px;
+        right:20px;
+    }
+    span{
+        background-color: black;
+        color:aliceblue;
+        font-size: 30px; 
+    }
+    #line{
+    width:95%;
+    height:1px;
+    margin-left:2.5%;
+    }
+    .parent2{
+        
+        position:relative;
+        width:100%;
+        height:110vh;
+
+    }
+    .parent2 img{
+        position:relative;
+        width:25%;
+        height:30vh;
+        padding:20px;
+    }
+    #im1{
+        position:absolute;
+        top:0%;
+        left:2%;
+        background-color: rgb(18, 18, 18);
+        color: rgb(228, 232, 235);
+    }
+    #im2{
+        position:absolute;
+        top:0%;
+        left:31%;
+        background-color: rgb(3, 3, 3);
+        color: white;
+    }
+    #im3{
+        position:absolute;
+        top:0%;
+        left:60%;
+        background-color: rgb(18, 19, 19);
+        color: white;
+    }
+    #im4{
+        position:absolute;
+        top:35%;
+        left:2%;
+        background-color: rgb(9, 9, 9);
+        color: white;
+        
+    }
+    #im5{
+        position:absolute;
+        top:35%; 
+        left:31%;
+        background-color: rgb(16, 16, 16);
+        color: white;
+    }
+    #im6{
+        position:absolute;
+        top:35%; 
+        left:60%;
+        background-color: rgb(9, 9, 9);
+        color: white;
+    }
+    #im7{
+        position:absolute;
+        top:70%; 
+        left:2%;
+        background-color: rgb(3, 3, 3);
+        color: white;
+    }
+    #im8{
+        position:absolute;
+        top:70%; 
+        left:31%;
+        background-color: rgb(12, 13, 13);
+        color: white;
+    }
+    #im9{
+        position:absolute;
+        top:70%; 
+        left:31%;
+        background-color: rgb(12, 13, 13);
+        color: white;
+    }
+    .par3child1{
+        display:flex;
+        gap:5%;
+        flex-basis:auto auto auto auto;
+        
+    }
+    .par3child10,.par3child11,.par3child12,.par3child13{
+        width:22%;
+    }
+
+    .par3child1 img{
+        width:100%;
+    }
+    .CHILDLAST>INPUT{
+     WIDTH:96%;
+    }
+    #YOU{
+        background-color: BLACK;
+        COLOR:WHITE;
+    }
+    #YOU:hover{
+        background-color:aliceblue;
+        COLOR:black;
+    }
+    .last{
+        background-color: black;
+        height:10vh;
+        width:100%;
+        color:white;
+        text-align: center;
+        padding:2%;
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <h3 class="a0"> VH ARCHITECTS</h3>
+        <a href="#projects" class="a1"><strong>Projects</strong></a>
+        <a href="#about" class="a2"><strong>About</strong></a>
+        <a href="#services" class="a3"><strong>Services</strong></a>
+        </div>
+       <div class="child2">
+        <img src="https://www.w3schools.com/w3images/architect.jpg" alt="Architecture"  >
+        <h3 class="c2a"><span >VH</span> ARCHITECTS</h3>
+        </div>
+        <div class="child3" ><h2 id="heading">Projects</h2>
+        </div>
+   <hr id="line"><br>
+   <div class="parent2" id="projects">
+    <img src="https://www.w3schools.com/w3images/house5.jpg" alt="" class="sum1" >
+    <h3 id="im1">Summer House</h3>
+    <img src="https://www.w3schools.com/w3images/house2.jpg" alt="" class="bri1">
+    <h3 id="im2">Brick House</h3>
+    <img src="https://www.w3schools.com/w3images/house3.jpg" alt="" class="ren1">
+    <h3 id="im3">Renovated</h3>
+    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="" class="barn1">
+    <h3 id="im4">Barn House</h3>
+    <img src="https://www.w3schools.com/w3images/house2.jpg" alt="" class="bri2">
+    <h3 id="im5">Brick House</h3>
+    <img src="https://www.w3schools.com/w3images/house5.jpg" alt="" class="sum2">
+    <h3 id="im6">Summer House</h3>
+    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="" class="ren2">
+    <h3 id="im7">Renovated</h3>
+    <img src="https://www.w3schools.com/w3images/house3.jpg" alt="" class="barn2">
+    <h3 id="im8">Barn House</h3>
+    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="" class="barn1">
+    <h3 id="im9">Barn House</h3>
+   </div>
+   <div class="parent3" id="about">
+    <h3>About</h3>
+    <br>
+    <hr>
+    <br>
+    <p style="font-family: 'Times New Roman', Times, serif;">It is the world famous architecture.In some countries buildings are used these architecture because their quality is too good and they always try to do in different way.</p>
+</div>
+    <div class="par3child1">
+        <div class="par3child10">
+            <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+        <h3>John Doe</h3>
+        <p>CEO & Founder</p>
+        <p style="font-family: 'Times New Roman', Times, serif;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+         <input type="submit" value="Contact">
+    </div>
+        <div class="par3child11"><img src="https://www.w3schools.com/w3images/team1.jpg" alt="">
+            <h3>Jane Doe</h3>
+        <p>Jr. Architect</p>
+    <p style="font-family: 'Times New Roman', Times, serif;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <input type="submit" value="Contact">
+   </div>
+        <div class="par3child12">
+        <img src="https://www.w3schools.com/w3images/team3.jpg" alt="">
+        <h3>Mike Ross</h3>
+        <p>Sr.Architect</p>
+        <p style="font-family: 'Times New Roman', Times, serif;"> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <input type="submit" value="Contact">
+     </div>
+       <div class="par3child13">
+        <img src="https://www.w3schools.com/w3images/team4.jpg" alt="">
+    <h3>Dan Star</h3>
+    <p>Jr.Architect</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <input type="submit" value="Contact">
+</div>
+</div>
+<br>
+<div class="CHILDLAST" id="services">
+<h3>Contact</h3>
+<input type="text" placeholder="Name"><BR><BR>
+<input type="email" placeholder="Email"><BR><BR>
+<input type="text" placeholder="Subject" ><BR><BR>
+<input type="text" placeholder="Comment"><BR><BR>
+
+</div>
+<input type="submit" value="SEND MESSAGE" ID="YOU"><br><br>
+<footer><img src="https://www.w3schools.com/w3images/map.jpg" alt="" width="100%"></footer>
+<div class="last">Powered by someone</div>
+   </div>
+   
+
+</body>
+</html>
